@@ -39,6 +39,13 @@
 	</PropertyGroup>
 	<ItemGroup>
 		<!-- App Icon -->
+		<!--
+			Include + ForegroundFile = imagem de fundo + icone da frente
+			TintColor = pinta a cor do foreground
+			Color = pinta a cor do background (o fundo, não a imagem de fundo)
+			ForegroundScale = redimensiona o foreground, dispensando o uso do appicon específico para android
+		-->
+		<MauiIcon Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'android'" Include="Resources\AppIcon\appicon.svg" ForegroundFile="Resources\AppIcon\appiconfg.svg" ForegroundScale ="0.4" TintColor="#FFFFFF" />
 		<MauiIcon Include="Resources\AppIcon\appicon.svg" ForegroundFile="Resources\AppIcon\appiconfg.svg" TintColor="#FFFFFF" />
 
 		<!-- Splash Screen -->
