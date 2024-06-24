@@ -7,7 +7,7 @@
     x:Class="AppNumeroDaSorte.MainPage"
     BackgroundColor="#FFFFFF">
     <ScrollView>
-        <VerticalStackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="Center">
+        <VerticalStackLayout VerticalOptions="Center">
             <Image
                 Source="logo_green.png"
                 WidthRequest="74"
@@ -27,27 +27,31 @@
                     HorizontalOptions="Center"
                     Margin="0, 20, 0, 0"/>
                 <HorizontalStackLayout Spacing="5" HorizontalOptions="Center" Margin="0, 70">
-                    <Border Stroke="#00AB37" Padding="10, 5" StrokeShape="RoundRectangle 8">
+                    <Border Stroke="#00AB37" Padding="10, 5" StrokeShape="RoundRectangle 8" BackgroundColor="White">
                         <Label FontSize="24" x:Name="LuckyNumber01" Text="" TextColor="#00AB37" />
                     </Border>
-                    <Border Stroke="#00AB37" Padding="10, 5" StrokeShape="RoundRectangle 8">
+                    <Border Stroke="#00AB37" Padding="10, 5" StrokeShape="RoundRectangle 8" BackgroundColor="White">
                         <Label FontSize="24" x:Name="LuckyNumber02" Text="" TextColor="#00AB37" />
                     </Border>
-                    <Border Stroke="#00AB37" Padding="10, 5" StrokeShape="RoundRectangle 8">
+                    <Border Stroke="#00AB37" Padding="10, 5" StrokeShape="RoundRectangle 8" BackgroundColor="White">
                         <Label FontSize="24" x:Name="LuckyNumber03" Text="" TextColor="#00AB37" />
                     </Border>
-                    <Border Stroke="#00AB37" Padding="10, 5" StrokeShape="RoundRectangle 8">
+                    <Border Stroke="#00AB37" Padding="10, 5" StrokeShape="RoundRectangle 8" BackgroundColor="White">
                         <Label FontSize="24" x:Name="LuckyNumber04" Text="" TextColor="#00AB37" />
                     </Border>
-                    <Border Stroke="#00AB37" Padding="10, 5" StrokeShape="RoundRectangle 8">
+                    <Border Stroke="#00AB37" Padding="10, 5" StrokeShape="RoundRectangle 8" BackgroundColor="White">
                         <Label FontSize="24" x:Name="LuckyNumber05" Text="" TextColor="#00AB37" />
                     </Border>
-                    <Border Stroke="#00AB37" Padding="10, 5" StrokeShape="RoundRectangle 8">
+                    <Border Stroke="#00AB37" Padding="10, 5" StrokeShape="RoundRectangle 8" BackgroundColor="White">
                         <Label FontSize="24" x:Name="LuckyNumber06" Text="" TextColor="#00AB37" />
                     </Border>
                 </HorizontalStackLayout>
                 <Label
                     Text="Boa sorte!"
+                    HorizontalOptions="Center"
+                    Margin="0, 0, 0, 50" />
+                <Label
+                    Text="by: @reinaldogpn"
                     HorizontalOptions="Center"
                     Margin="0, 0, 0, 50" />
             </VerticalStackLayout>
