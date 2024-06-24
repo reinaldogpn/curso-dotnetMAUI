@@ -6,7 +6,8 @@ public partial class App : Application
 	{
 		InitializeComponent();
 
-		MainPage = new AppShell();
+		// Página atual (current page)
+		MainPage = new MainPage();
 	}
 }
 
